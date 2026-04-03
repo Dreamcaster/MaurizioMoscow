@@ -1,4 +1,52 @@
-# Byte-compiled / optimized / DLL files
+# --- DATABASE ---
+# Protects your league data and credits
+*.db
+fantacalcio.db
+*.sqlite3
+*-journal
+
+# --- PYTHON ---
+# Ignore temporary files and cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# --- ENVIRONMENTS ---
+# Keep your tokens and local setups private
+.env
+.envrc
+venv/
+env/
+ENV/
+.venv
+
+# --- OS SPECIFIC ---
+# Ignore Mac system clutter
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# --- EDITORS ---
+.vscode/
+.idea/
+.cursorignore# Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
 *$py.class
