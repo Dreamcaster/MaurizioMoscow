@@ -205,3 +205,25 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Ignore the actual data so your friends' credits stay private\
+*.db\
+fantacalcio.db\
+\
+# --- PYTHON ---\
+# Ignore temporary folders created when running Python\
+__pycache__/\
+*.py[cod]\
+*$py.class\
+\
+# --- OS SPECIFIC ---\
+# Ignore Mac-specific system files\
+.DS_Store\
+.AppleDouble\
+.LSOverride\
+\
+# --- ENVIRONMENT ---\
+# If you ever use a .env file for your token, ignore it here\
+.env\
+venv/\
+env/}
